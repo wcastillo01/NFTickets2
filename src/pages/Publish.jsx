@@ -5,7 +5,6 @@ import {
   useAddress,
 } from "@thirdweb-dev/react";
 import React, { useState } from "react";
-import { TextField, Button, Container } from "@mui/material";
 import { useCreateDirectListing } from "@thirdweb-dev/react";
 import { ethers } from "ethers";
 

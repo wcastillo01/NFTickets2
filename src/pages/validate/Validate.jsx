@@ -84,7 +84,7 @@ export default function Details() {
                             <div className="check"></div>
                         </div>
                         <div>
-                            <p className="text-center text-2xl font-bold mt-6 ">Pueden pasar  </p>
+                            <p className="text-center text-2xl font-bold mt-6 ">Pueden pasar </p>
                             <button style={{ marginTop: '5%' }} className="button text-black" onClick={reload}> Test another one</button> 
                         </div>
                                  

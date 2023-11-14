@@ -1,0 +1,5 @@
+.qr-container {
+  display: flex;
+  justify-content: center; /* This will center the canvas horizontally */
+  align-items: center; /* This will center the canvas vertically */
+}

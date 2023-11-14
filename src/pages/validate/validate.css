@@ -1,0 +1,53 @@
+:root {
+    --borderWidth: 28px;
+    --height: 96px;
+    --width: 48px;
+    --borderColor: white;
+}
+
+
+.back {
+    background-color: #4CAF50;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.check {
+    display: inline-block;
+    transform: rotate(45deg);
+    height: var(--height);
+    width: var(--width);
+    border-bottom: var(--borderWidth) solid var(--borderColor);
+    border-right: var(--borderWidth) solid var(--borderColor);
+    margin-top: 35%;
+    
+}
+
+.close {
+    height: 400px;
+    width: 400px;
+    text-align: center;
+    background: #a41f3f;
+    border-radius: 50%;
+    position: relative;
+    margin: 0 auto;
+
+    &:after {
+        content: "\274c";
+        font-size: 200px;
+        line-height: 400px;
+        text-align: center;
+    }
+}
+
+.button{
+    background-color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 10px;
+    margin-left: 40%;
+}
